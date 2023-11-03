@@ -77,7 +77,7 @@ class _WeatherInfoScreenState extends State<WeatherInfoScreen> {
         itemBuilder: (BuildContext context, int index) {
           return Card(
             child: ListTile(
-              title: Text(weather[index].city),
+              title: Text('City: ${weather[index].city}'),
               subtitle: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
